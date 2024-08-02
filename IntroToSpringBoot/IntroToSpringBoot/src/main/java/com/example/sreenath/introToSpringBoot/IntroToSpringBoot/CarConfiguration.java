@@ -17,7 +17,7 @@ public class CarConfiguration {
 
     @PostConstruct
     void callThisBeforeBeanCreation(){
-        System.out.println("Before Bean Creation");
+        System.out.println("Before Bean Used");
     }
 
     @PreDestroy

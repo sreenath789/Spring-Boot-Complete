@@ -31,7 +31,7 @@ public class IntroToSpringBootApplication implements CommandLineRunner {
 		car1.driveCar();
 
 		System.out.println("Car object "+car.hashCode());
-		System.out.println("Car1 object "+car.hashCode());
+		System.out.println("Car1 object "+car1.hashCode());
 
 
 
